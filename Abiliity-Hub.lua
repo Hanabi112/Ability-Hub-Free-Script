@@ -3,7 +3,7 @@ local PlaceId = game.PlaceId
 if PlaceId == 8357510970 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Ability-Hub/main/AnimePunchingSimulator.lua"))()
 
-else if 7842028704 then
+elseif 7842028704 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Anime-Clash-Simulator/main/Anime%20Clash%20Simulator.lua"))()
 else
   	game.Players.LocalPlayer:kick("Not Have Game")
