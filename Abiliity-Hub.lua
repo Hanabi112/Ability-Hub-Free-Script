@@ -5,7 +5,7 @@ if PlaceId == 8357510970 then
 elseif PlaceId == 7842028704 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Anime-Clash-Simulator/main/Anime%20Clash%20Simulator.lua"))()
 else
-  	game.Players.LocalPlayer:kick("มันไม่มีเกมนี้ไอควายโง่สถุน")
+  	game.Players.LocalPlayer:kick("มันไม่มีเกมนี้ ไอควายโง่สถุน")
     wait(1)
     game:Shutdown()
 end
