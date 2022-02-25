@@ -1,13 +1,12 @@
 local PlaceId = game.PlaceId
 game:GetService("StarterGui"):SetCore("SendNotification",
 							{
-								Title = "Abilit Hub",
+								Title = "Ability Hub",
 								Text = "Ability Hub Working...",
 								Icon = "",
-								Duration = 4
 							}
 						)
-						wait(4)
+						wait(1)
 if PlaceId == 8357510970 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Ability-Hub/main/AnimePunchingSimulator.lua"))()
 elseif PlaceId == 7842028704 then
