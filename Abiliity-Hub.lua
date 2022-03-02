@@ -5,7 +5,7 @@ if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
   if _G.ScriptMode == "AutoKaiTan" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Ability-Kaitan/main/BloxFruits.lua"))()
   else
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/BloxFruitssssssssssssssssssss/main/BloxFruits.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Ability-hub-BloxFruitssssssssssssssss/main/BloxFruits.lua"))()
 end
 elseif PlaceId == 7842028704 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Anime-Clash-Simulator/main/Anime%20Clash%20Simulator.lua"))()
