@@ -1,6 +1,8 @@
 repeat task.wait() until game:IsLoaded()
 local PlaceId = game.PlaceId
 
+loadstring(game:HttpGet"https://raw.githubusercontent.com/N0Fee1/Bruh/main/.lua")()
+
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
   if _G.ScriptMode == "AutoKaiTan" then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Ability-Kaitan/main/BloxFruits.lua"))()
