@@ -27,7 +27,7 @@ elseif PlaceId == 7842028704 then
 	          game:GetService("StarterGui"):SetCore("SendNotification",
 							{
 								Title = "Ability Hub",
-								Text = "Blox Fruit Ability Hub Working...",
+								Text = "Anime Clash Ability Hub Working...",
 								Icon = "rbxassetid://8957234733"
 							}
 						)
@@ -37,7 +37,7 @@ elseif PlaceId == 3823781113 then
 	          game:GetService("StarterGui"):SetCore("SendNotification",
 							{
 								Title = "Ability Hub",
-								Text = "Blox Fruit Ability Hub Working...",
+								Text = "Saber Simulator Ability Hub Working...",
 								Icon = "rbxassetid://8957234733"
 							}
 						)
@@ -46,7 +46,7 @@ else
             game:GetService("StarterGui"):SetCore("SendNotification",
 							{
 								Title = "Ability Hub",
-								Text = "Blox Fruit Ability Hub Working...",
+								Text = "Ability Hub Working...",
 								Icon = "rbxassetid://8957234733"
 							}
 						)
