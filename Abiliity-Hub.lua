@@ -46,7 +46,7 @@ else
             game:GetService("StarterGui"):SetCore("SendNotification",
 							{
 								Title = "Ability Hub",
-								Text = "Ability Hub Working...",
+								Text = "Other Game Ability Hub Working...",
 								Icon = "rbxassetid://8957234733"
 							}
 						)
