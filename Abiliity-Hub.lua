@@ -11,7 +11,7 @@ if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
 								Icon = "rbxassetid://8957234733"
 							}
 						)
-   loadstring(game:HttpGet"https://raw.githubusercontent.com/N0Fee1/Ability-BloxFruit/main/BloxFruits.lua")()
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/N0Fee1/BloxFruits_Ability/main/BloxFruits.lua")()
 elseif PlaceId == 7842028704 then
 	          game:GetService("StarterGui"):SetCore("SendNotification",
 							{
