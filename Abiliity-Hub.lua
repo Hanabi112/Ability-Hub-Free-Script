@@ -4,16 +4,6 @@ local PlaceId = game.PlaceId
 
 
 if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
-  if _G.ScriptMode == "AutoKaiTan" then
-	          game:GetService("StarterGui"):SetCore("SendNotification",
-							{
-								Title = "Ability Hub",
-								Text = "Blox Fruit Ability Hub Working...",
-								Icon = "rbxassetid://8957234733"
-							}
-						)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/N0Fee1/Ability-Kaitan/main/BloxFruits.lua"))()
-  else
 		          game:GetService("StarterGui"):SetCore("SendNotification",
 							{
 								Title = "Ability Hub",
@@ -21,8 +11,7 @@ if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
 								Icon = "rbxassetid://8957234733"
 							}
 						)
-   loadstring(game:HttpGet"https://raw.githubusercontent.com/N0Fee1/Ability_Hub/main/BloxFruits.lua")()
-end
+   loadstring(game:HttpGet"https://raw.githubusercontent.com/N0Fee1/Ability-BloxFruit/main/BloxFruits.lua")()
 elseif PlaceId == 7842028704 then
 	          game:GetService("StarterGui"):SetCore("SendNotification",
 							{
