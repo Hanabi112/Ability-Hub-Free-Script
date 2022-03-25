@@ -1,8 +1,8 @@
 repeat wait()
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
-   if SelectGui == 1 then
+   if _G.SelectGui == 1 then
    loadstring(game:HttpGet"https://raw.githubusercontent.com/N0Fee1/BloxFruits_AbilityFix/main/BloxFruits.lua")()
-   elseif SelectGui == 2 then
+   elseif _G.SelectGui == 2 then
    loadstring(game:HttpGet"https://raw.githubusercontent.com/N0Fee1/NewGui_BloxFruit/main/Abiliity-Hub.lua")()
    else
         game:GetService("StarterGui"):SetCore("SendNotification",{
