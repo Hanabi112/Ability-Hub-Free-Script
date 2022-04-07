@@ -272,7 +272,10 @@ end;
         TextButton.TextSize = 20.000
         TextButton.TextStrokeTransparency = 0.000
         TextButton.MouseButton1Click:Connect(function()
+	wait(1)
             game.Players.LocalPlayer:Kick('Kick')
+		wait(1)
+		game:Shutdown()
         end)
     
         UICorner_2.Parent = TextButton
