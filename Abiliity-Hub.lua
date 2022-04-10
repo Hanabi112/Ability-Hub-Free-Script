@@ -189,12 +189,8 @@ end;
             Message.Text = "Blox Fruits [Second Sea]"
             elseif game.PlaceId == 7449423635 then
             Message.Text = "Blox Fruits [Third Sea]"
-            elseif game.PlaceId == 7842028704  then
-            Message.Text = "Anime Clash Simulator"
-            elseif game.PlaceId == 3823781113 then
-            Message.Text = "Saber Simulator"
             else
-            Message.Text = "No Have Game"
+            Message.Text = "All Games"
         end
         wait(.5)
         setSize(100)
@@ -210,11 +206,7 @@ end;
             Direction = Enum.EasingDirection.In,
             TIME = .4
         })
-        if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 or game.PlaceId == 7842028704 or game.PlaceId == 3823781113 then
         Message.Text = "Loaded!"
-        else
-        Message.Text = "Failed!"
-        end
         wait(.5)
         createTween(Message,{TextTransparency = 1}, {
             Style = Enum.EasingStyle.Linear,
