@@ -235,64 +235,8 @@ end;
         }).Completed:Wait(1)
 	BlueXLoader:Destroy()
     
-    if game.PlaceId == 7842028704 then
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/Hanabi112/Anime-Clash-Simulator/main/Anime%20Clash%20Simulator.lua")()
-      elseif game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
+      if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Hanabi112/NewGui_BloxFruit/main/Abiliity-Hub.lua")()
-      elseif game.PlaceId == 3823781113 then
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/Hanabi112/Saber-Simulator/main/Saber-Simulator.lua")()
       else
-        local Check = Instance.new("ScreenGui")
-        local Kick = Instance.new("Frame")
-        local UICorner = Instance.new("UICorner")
-        local TextButton = Instance.new("TextButton")
-        local UICorner_2 = Instance.new("UICorner")
-        local TextButton_2 = Instance.new("TextButton")
-        local UICorner_3 = Instance.new("UICorner")
-    
-        Check.Name = "Check"
-        Check.Parent = game.CoreGui
-        Check.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-    
-        Kick.Name = "Kick"
-        Kick.Parent = Check
-        Kick.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
-        Kick.Position = UDim2.new(0.397070169, 0, 0.377914101, 0)
-        Kick.Size = UDim2.new(0.228218973, 0, 0.17546013, 0)
-    
-        UICorner.Parent = Kick
-    
-        TextButton.Parent = Kick
-        TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        TextButton.Position = UDim2.new(0.0740740001, 0, 0.373737454, 0)
-        TextButton.Size = UDim2.new(0.385135144, 0, 0.349650353, 0)
-        TextButton.Font = Enum.Font.SourceSans
-        TextButton.Text = "Kick"
-        TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-        TextButton.TextSize = 20.000
-        TextButton.TextStrokeTransparency = 0.000
-        TextButton.MouseButton1Click:Connect(function()
-	wait(1)
-            game.Players.LocalPlayer:Kick('Kick')
-		wait(1)
-		game:Shutdown()
-        end)
-    
-        UICorner_2.Parent = TextButton
-    
-        TextButton_2.Parent = Kick
-        TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-        TextButton_2.Position = UDim2.new(0.567317247, 0, 0.373737454, 0)
-        TextButton_2.Size = UDim2.new(0.385135144, 0, 0.349650353, 0)
-        TextButton_2.Font = Enum.Font.SourceSans
-        TextButton_2.Text = "Rejoin"
-        TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-        TextButton_2.TextSize = 20.000
-        TextButton_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-        TextButton_2.TextStrokeTransparency = 0.000
-        TextButton_2.MouseButton1Click:Connect(function()
-            game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").localPlayer)
-        end)
-    
-        UICorner_3.Parent = TextButton_2
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/Hanabi112/9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999/main/Roblox.Script.lua")()
       end
