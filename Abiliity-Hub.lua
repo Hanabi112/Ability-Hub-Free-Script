@@ -169,11 +169,11 @@ end;
             wait(.4)
         end
         setSize(60)
-        if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 or game.PlaceId == 7842028704 or game.PlaceId == 3823781113 then
+        if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 or game.PlaceId == 4520749081 or game.PlaceId == 6381829480 or game.PlaceId == 5931540094 then
         Message.Text = "Game Found!"
         wait(1)
         else
-        Message.Text = 'No Have Game !'
+        Message.Text = 'All Games'
         end
         wait(1)
         if not game:GetService("UserInputService").TouchEnabled and not game:GetService("UserInputService").KeyboardEnabled == false then
@@ -189,6 +189,10 @@ end;
             Message.Text = "Blox Fruits [Second Sea]"
             elseif game.PlaceId == 7449423635 then
             Message.Text = "Blox Fruits [Third Sea]"
+	    elseif game.PlaceId == 4520749081 then
+            Message.Text = "King Legacy [First Sea]"	
+	    elseif game.PlaceId == 6381829480 then
+            Message.Text = "King Legacy [Second Sea]"	
             else
             Message.Text = "All Games"
         end
